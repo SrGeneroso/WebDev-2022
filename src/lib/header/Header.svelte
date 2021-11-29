@@ -1,12 +1,14 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
+	import logo from './webdevLogo.png';
+	import githubLogo from './iconmonstr-github-5.svg';
 </script>
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+		<!-- TODO put url of Netlify deployment -->
+		<a href="https://github.com/SrGeneroso/svelte-pwa">
+			<img src={logo} alt="WebDev 2022" />
 		</a>
 	</div>
 
@@ -25,6 +27,9 @@
 	</nav>
 
 	<div class="corner">
+		<a href="https://github.com/SrGeneroso/svelte-pwa">
+			<img src={githubLogo} alt="Repo WebDev 2022" />
+		</a>
 		<!-- TODO put something else here? github link? -->
 	</div>
 </header>
